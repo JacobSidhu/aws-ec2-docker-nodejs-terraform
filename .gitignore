@@ -1,0 +1,5 @@
+cat > .gitignore <<'EOF'
+# Node
+node_modules/
+app/node_modules/
+npm-debug.log*
