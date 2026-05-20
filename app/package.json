@@ -1,0 +1,20 @@
+{
+  "name": "aws-ec2-docker-nodejs-terraform",
+  "version": "1.0.0",
+  "description": "Provision an AWS EC2 instance using Terraform, install Docker automatically, deploy a simple Node.js/Express app inside a Docker container, and document the deployment.",
+  "homepage": "https://github.com/jacobsidhu/aws-ec2-docker-nodejs-terraform#readme",
+  "bugs": {
+    "url": "https://github.com/jacobsidhu/aws-ec2-docker-nodejs-terraform/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobsidhu/aws-ec2-docker-nodejs-terraform.git"
+  },
+  "license": "MIT",
+  "author": "JacobSidhu",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
