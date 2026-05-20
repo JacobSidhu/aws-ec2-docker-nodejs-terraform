@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get("/", (req,res)=> {
     res.json({
-        message : "Hello From a Dockerised node application on aws EC2.",
+        message : "Hello from a Dockerised Node.js application on AWS EC2.",
         project: "aws-ec2-docker-nodejs-terraform",
         status: "running",
         platform: "AWS EC2",
