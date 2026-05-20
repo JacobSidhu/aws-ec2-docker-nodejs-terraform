@@ -3,3 +3,25 @@ cat > .gitignore <<'EOF'
 node_modules/
 app/node_modules/
 npm-debug.log*
+
+# Environment files
+.env
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+override.tf
+override.tf.json
+
+# SSH keys and secrets
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# OS/editor
+.DS_Store
+.vscode/
