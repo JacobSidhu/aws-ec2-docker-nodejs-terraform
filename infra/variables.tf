@@ -4,8 +4,9 @@ variable "aws_region" {
 }
 
 variable "aws_profile" {
-  description = "AWS CLI profile account username"
+  description = "AWS CLI profile to use. Set to null when using default credentials."
   type        = string
+  default     = null
 }
 
 variable "project_name" {
@@ -39,6 +40,7 @@ variable "ssh_public_key_path" {
 }
 
 variable "app_port" {
-  description = "Exposed application port"
+  description = "Internal application port used by the Docker container"
   type        = number
+  default     = 3000
 }
