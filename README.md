@@ -12,7 +12,7 @@ This is Project 02 in my Cloud Engineer portfolio roadmap. It builds on my previ
 
 ## Current Status
 
-**Project stage:** Day 2 — Dockerised Express application
+**Project stage:** Day 3 — Terraform provider and variables
 
 ### Completed so far
 
@@ -249,7 +249,7 @@ Future cost considerations:
 |-----|-------|--------|
 | Day 1 | Create local Express app | Complete |
 | Day 2 | Dockerise the app | Complete |
-| Day 3 | Add Terraform provider and variables | Planned |
+| Day 3 | Add Terraform provider and variables | Complete |
 | Day 4 | Add EC2 infrastructure and security group | Planned |
 | Day 5 | Install Docker and configure Nginx reverse proxy | Planned |
 | Day 6 | Deploy Docker container on EC2 | Planned |
@@ -313,6 +313,27 @@ Use the correct command depending on the current folder:
   npm install express
   ```
 - Then rebuilt the Docker image.
+
+## Day 3 Progress
+
+### Completed
+
+- Created the `infra/` folder
+- Added Terraform AWS provider configuration
+- Added project variables
+- Added example Terraform variable values
+- Added initial Terraform outputs
+- Ran `terraform init`
+- Ran `terraform fmt`
+- Ran `terraform validate`
+
+### Issue encountered
+
+- Terraform provider syntax needed correction.
+
+### Fix
+
+- Replaced incorrect provider syntax with valid Terraform `required_providers` and `provider "aws"` blocks.
 
 ---
 
